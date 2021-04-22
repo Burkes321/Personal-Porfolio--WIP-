@@ -3,6 +3,7 @@ import NavBar from './components/navbar/NavBar';
 import AboutMe from './components/aboutme/AboutMe';
 import Invitation from './components/invitation/Invitation';
 import Stages from './components/stages/Stages';
+import Skills from './components/skills/Skills';
 
 function App() {
   return(
@@ -11,6 +12,7 @@ function App() {
         <AboutMe />
         <Invitation />
         <Stages />
+        <Skills />
       </div>
   );
 }
