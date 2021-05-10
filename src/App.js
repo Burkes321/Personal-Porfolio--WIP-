@@ -5,6 +5,7 @@ import Invitation from './components/invitation/Invitation';
 import Stages from './components/stages/Stages';
 import Skills from './components/skills/Skills';
 import Bio from './components/bio/Bio';
+import Contact from './components/contact/Contact';
 
 function App() {
   return(
@@ -15,6 +16,7 @@ function App() {
         <Stages />
         <Skills />
         <Bio />
+        <Contact />
       </div>
   );
 }
